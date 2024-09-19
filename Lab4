@@ -18,6 +18,11 @@ upper_s = s.upper()  # Перетворення тексту на верхній
 find_substring = s.find("Гвідо")  # Пошук слова "Гвідо"
 split_by_dash = s.split("–")  # Розбиття рядка за символом "–"
 
+# Литвиненко Роман:
+startswith_python = s.startswith("Python")  # Перевірка, чи починається рядок з "Python"
+punctuation_replaced = s.replace(".", " ").replace(",", " ")  # Заміна пунктуації на пробіли
+lower_s = s.lower()  # Перетворення тексту на нижній регістр
+
 # Виведення результатів
 print("Рядок після видалення пробілів в початку та в кінці:\n", s1)
 print("Рядок після заміни слова Python:\n", r)
@@ -31,3 +36,8 @@ print("Кількість входжень слова 'мова':", count_word)
 print("Рядок у верхньому регістрі:\n", upper_s)
 print("Індекс підрядка 'Гвідо':", find_substring)
 print("Розбиття рядка за '–':\n", split_by_dash)
+
+print("Чи починається рядок з 'Python':", startswith_python)
+print("Рядок після заміни пунктуації на пробіли:\n", punctuation_replaced)
+print("Рядок у нижньому регістрі:\n", lower_s)
+
